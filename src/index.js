@@ -1,1 +1,5 @@
-console.log("test");
+import { homepage } from "./homepage.js";
+
+const content = document.querySelector(".content");
+
+content.appendChild(homepage());
