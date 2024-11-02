@@ -3,6 +3,7 @@ import { menu } from "./menu.js"
 import { about } from "./about.js"
 
 const content = document.querySelector(".content");
+content.appendChild(homepage());
 
 
 const homeButton = document.querySelector(".home-content");
